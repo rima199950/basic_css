@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+ul {
+    list-style: none ;
+    margin: 0;
+    padding: 0;
+    overflow:hidden ;
+    
+}
+li {
+    float: left;
+    background-color: brown;
+    width: 25%;
+}
+li a {
+    margin: 10px ;
+    display: inline-block;
+    padding: 14px;
+    text-align: center;
+    text-align: center;
+}
+.active {
+    background-color: black;
+}
+
+p img {
+    width: 170px; 
+    height: 170px;
+    float: right ;
+}
+
+.box {
+    float: left;
+    width: 32%;
+    height: 160px;
+    margin: 3px;
+    text-align: center;
+}
+.box1 {
+    background-color: green;
+}
+.box2 {
+    background-color: red;
+}
+.box3 {
+    background-color: rgb(50, 18, 194);
+}
+
+.center {
+    margin: auto;
+    border: 7px solid red ;
+    width: 60%;
+    height: 20px;
+    position: relative;
+}
